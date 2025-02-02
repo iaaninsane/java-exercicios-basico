@@ -7,12 +7,12 @@ public class Main {
 
         ConjuntoPalavrasUnicas conjuntoPalavrasUnicas = new ConjuntoPalavrasUnicas();
 
-        conjuntoPalavrasUnicas.adicionarPalavra("maluco");
         conjuntoPalavrasUnicas.adicionarPalavra("teste");
-        conjuntoPalavrasUnicas.adicionarPalavra("anta");
+        conjuntoPalavrasUnicas.adicionarPalavra("teste1");
+        conjuntoPalavrasUnicas.adicionarPalavra("teste2");
 
         conjuntoPalavrasUnicas.exibirPalavrasUnicas();
-        conjuntoPalavrasUnicas.removerPalavra("anta");
+        conjuntoPalavrasUnicas.removerPalavra("teste1");
         System.out.println("após remoção: ");
         conjuntoPalavrasUnicas.exibirPalavrasUnicas();
 
